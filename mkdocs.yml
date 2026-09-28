@@ -1,8 +1,8 @@
 site_name: Flamilingo
 site_description: Documentation for the Flamilingo localization toolkit for Unity.
-site_url: https://umair-git.github.io/flamilingo-docs/
-repo_url: https://github.com/Umair-git/flamilingo-docs
-repo_name: Umair-git/flamilingo-docs
+site_url: https://axe-unity-tools.github.io/flamilingo-docs/
+repo_url: https://github.com/axe-unity-tools/flamilingo-docs
+repo_name: axe-unity-tools/flamilingo-docs
 edit_uri: edit/main/docs/
 copyright: Copyright © 2026 Flamilingo
 
