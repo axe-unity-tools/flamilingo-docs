@@ -1,7 +1,7 @@
 # Flamilingo documentation
 
 Source for the Flamilingo user documentation, published with GitHub Pages at
-<https://umair-git.github.io/flamilingo-docs/>.
+<https://axe-unity-tools.github.io/flamilingo-docs/>.
 
 ## Preview locally
 
