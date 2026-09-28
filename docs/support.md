@@ -1,6 +1,6 @@
 # Support
 
-Use the public [Flamilingo documentation repository](https://github.com/Umair-git/flamilingo-docs) to [report a problem or request a feature](https://github.com/Umair-git/flamilingo-docs/issues/new/choose). Documentation corrections are welcome there too.
+Use the public [Flamilingo documentation repository](https://github.com/axe-unity-tools/flamilingo-docs) to [report a problem or request a feature](https://github.com/axe-unity-tools/flamilingo-docs/issues/new/choose). Documentation corrections are welcome there too.
 
 When reporting a tool issue, include:
 
