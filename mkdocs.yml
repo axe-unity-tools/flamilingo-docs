@@ -1,0 +1,60 @@
+site_name: Flamilingo
+site_description: Documentation for the Flamilingo localization toolkit for Unity.
+site_url: https://umair-git.github.io/flamilingo-docs/
+repo_url: https://github.com/Umair-git/flamilingo-docs
+repo_name: Umair-git/flamilingo-docs
+edit_uri: edit/main/docs/
+copyright: Copyright © 2026 Flamilingo
+
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/translate
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Getting started: getting-started.md
+  - User guide: user-guide.md
+  - Language storage: language-storage.md
+  - API reference: api.md
+  - FAQ: faq.md
+  - Support: support.md

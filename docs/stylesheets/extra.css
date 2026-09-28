@@ -1,0 +1,31 @@
+:root {
+  --md-primary-fg-color: #b14c3f;
+  --md-primary-fg-color--light: #ce7566;
+  --md-primary-fg-color--dark: #8d382f;
+  --md-accent-fg-color: #207b74;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #dc735e;
+  --md-accent-fg-color: #6bc6b7;
+}
+
+.md-typeset .fl-hero {
+  padding: 2.2rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 1rem;
+  background: linear-gradient(130deg, rgba(220, 115, 94, .16), rgba(107, 198, 183, .11));
+}
+
+.md-typeset .fl-hero h1 {
+  margin-bottom: .35rem;
+  font-weight: 700;
+}
+
+.md-typeset .fl-hero p {
+  max-width: 42rem;
+}
+
+.md-typeset .fl-hero .md-button {
+  margin: .3rem .5rem .3rem 0;
+}

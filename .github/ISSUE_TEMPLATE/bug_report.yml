@@ -1,0 +1,39 @@
+name: Bug report
+description: Report incorrect behavior in Flamilingo.
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Please remove API keys and private translation content from screenshots and logs.
+  - type: input
+    id: unity-version
+    attributes:
+      label: Unity version
+      placeholder: 2022.3.62f3
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      placeholder: Windows Editor, Android player, etc.
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include the Hub page or component involved.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior and Console output
+    validations:
+      required: true
